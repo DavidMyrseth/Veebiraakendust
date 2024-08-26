@@ -1,0 +1,48 @@
+body {
+ font-family: Arial;
+}
+
+header, footer{ 
+ color: black; /*teksti värv*/
+ background-color: DeepSkyBlue; /*tausta värv*/ 
+ width: 50%; /*lauis*/
+ text-align : center; 
+ border: solid 1pt Black; /*piir - solid, dashed, dotted, double*/
+ border-radius: 60px 120px 60px 120px; 
+ padding: 1%;
+ }
+ main section {
+  background-color: BlueViolet;
+  border: solid 1pt Black;
+  margin:5px;
+  width: 40%;
+  padding: 1%;
+ }
+ main section h2{
+  color: Black;
+  font-variant: small-caps; /*normal*/
+  
+ }
+ nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elementid*/
+  background-color: Black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*underline - none*/
+}
+
+nav li a:hover { /*link fookuses*/
+  background-color: BlueViolet;
+}
